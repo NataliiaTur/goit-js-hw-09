@@ -1,0 +1,19 @@
+body {
+    background-color: beige;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+}
+
+.gallery-item {
+    max-width: calc((100% - 10px) / 3);
+    box-sizing: border-box;
+}
